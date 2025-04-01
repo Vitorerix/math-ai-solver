@@ -1,6 +1,6 @@
-# Math AI Solver
+# Math Solver
 
-A beautiful web application that solves mathematical problems using AI, featuring a mystical Elden Ring-inspired theme.
+A beautiful web application that solves mathematical problems, featuring a mystical Elden Ring-inspired theme.
 
 ## Features
 
@@ -29,12 +29,12 @@ A beautiful web application that solves mathematical problems using AI, featurin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/math-ai-solver.git
+git clone https://github.com/Vitorerix/math-solver.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd math-ai-solver
+cd math-solver
 ```
 
 3. Build the project:

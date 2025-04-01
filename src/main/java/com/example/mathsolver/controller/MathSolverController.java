@@ -15,13 +15,13 @@ public class MathSolverController {
     private MathSolverService mathSolverService;
 
     @GetMapping("/")
-    public String home() {
+    public String index() {
         return "index";
     }
 
     @PostMapping("/solve")
-    public String solveMathProblem(@RequestParam String problem, Model model) {
-        String solution = mathSolverService.solveProblem(problem);
+    public String solve(@RequestParam String problem, Model model) {
+        String solution = mathSolverService.solve(problem);
         model.addAttribute("problem", problem);
         model.addAttribute("solution", solution);
         return "result";
